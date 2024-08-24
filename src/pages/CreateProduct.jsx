@@ -28,7 +28,8 @@ const CreateProduct = () => {
 
     }
     return (
-        <div className="flex justify-center items-center py-5 bg-gray-200">
+    <div className="px-60  pt-4">
+ <div className="flex justify-center items-center py-5 bg-gray-200">
          <div className="p-4">
          <h2 className="text-2xl font-semibold text-center">Create Product</h2>
           <form onSubmit={handleSubmit}>
@@ -55,6 +56,8 @@ const CreateProduct = () => {
          </div>
   
         </div>
+    </div>
+       
     );
 };
 

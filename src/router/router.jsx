@@ -5,18 +5,14 @@ import AllProductPage from "../pages/products";
 
 const router = createBrowserRouter([
     {
-      path: "/",
-      element:<App />,
-      children:[
-        {
-          path: "create-product", 
+      
+          path: "/", 
           element:<CreateProduct />,
-        },
-        {
-          path: "app-product", 
-          element:<AllProductPage />,
-        },
-      ]
+      
+    },
+    {
+      path: "all-product", 
+      element:<AllProductPage />,
     },
   ]);
 
